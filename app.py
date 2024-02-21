@@ -4,7 +4,7 @@ import cv2
 from ultralytics import YOLO
 
 st.markdown(f'''
-<h1 align='center'>Digit Classification System</h1>''',unsafe_allow_html=True)
+<h1 align='center'>Digit Classification</h1>''',unsafe_allow_html=True)
 @st.cache_resource()
 def finalised_model():
 	model=YOLO('best.pt')
